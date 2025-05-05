@@ -319,9 +319,9 @@
         "c": "named Pessoa(String n) => nome = n;",
         "d": "Pessoa({this.nome});"
       },
-      "answer": "d",
-      "answer_text": "Pessoa({this.nome});",
-      "explanation": "A opção `Pessoa({this.nome});` utiliza a sintaxe de inicialização para parâmetros nomeados, que é uma forma concisa de inicializar o campo `nome`."
+      "answer": "b",
+      "answer_text": "Pessoa.somenteNome(this.nome);",
+        "explanation": "Construtores nomeados são definidos com um ponto após o nome da classe. O construtor `Pessoa.somenteNome(this.nome);` inicializa apenas o nome."
     },
     {
       "question": "Qual é a diferença entre extends e implements?",
